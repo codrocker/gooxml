@@ -8,10 +8,10 @@
 package spreadsheet
 
 import (
-	"github.com/carmel/gooxml/color"
-	"github.com/carmel/gooxml/schema/soo/sml"
-	"github.com/carmel/gooxml/spreadsheet/reference"
-	"github.com/carmel/gooxml/vmldrawing"
+	"github.com/codrocker/gooxml/color"
+	"github.com/codrocker/gooxml/schema/soo/sml"
+	"github.com/codrocker/gooxml/spreadsheet/reference"
+	"github.com/codrocker/gooxml/vmldrawing"
 )
 
 // Comments is the container for comments for a single sheet.

@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/carmel/gooxml/schema/soo/sml"
-	"github.com/carmel/gooxml/spreadsheet"
+	"github.com/codrocker/gooxml/schema/soo/sml"
+	"github.com/codrocker/gooxml/spreadsheet"
 )
 
 func TestCell(t *testing.T) {

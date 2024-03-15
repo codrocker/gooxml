@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/carmel/gooxml"
-	"github.com/carmel/gooxml/schema/soo/ofc/math"
+	"github.com/codrocker/gooxml"
+	"github.com/codrocker/gooxml/schema/soo/ofc/math"
 )
 
 type CT_Comment struct {

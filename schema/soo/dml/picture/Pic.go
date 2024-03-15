@@ -12,7 +12,7 @@ package picture
 import (
 	"encoding/xml"
 
-	"github.com/carmel/gooxml"
+	"github.com/codrocker/gooxml"
 )
 
 type Pic struct {

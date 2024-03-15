@@ -8,7 +8,7 @@
 package presentation
 
 import (
-	"github.com/carmel/gooxml/schema/soo/pml"
+	"github.com/codrocker/gooxml/schema/soo/pml"
 )
 
 // SlideLayout

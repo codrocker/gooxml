@@ -10,9 +10,9 @@ package document
 import (
 	"testing"
 
-	"github.com/carmel/gooxml"
-	"github.com/carmel/gooxml/schema/soo/ofc/sharedTypes"
-	"github.com/carmel/gooxml/schema/soo/wml"
+	"github.com/codrocker/gooxml"
+	"github.com/codrocker/gooxml/schema/soo/ofc/sharedTypes"
+	"github.com/codrocker/gooxml/schema/soo/wml"
 )
 
 func TestRunClear(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/carmel/gooxml/common"
-	"github.com/carmel/gooxml/document"
-	"github.com/carmel/gooxml/schema/soo/wml"
-	"github.com/carmel/gooxml/testhelper"
+	"github.com/codrocker/gooxml/common"
+	"github.com/codrocker/gooxml/document"
+	"github.com/codrocker/gooxml/schema/soo/wml"
+	"github.com/codrocker/gooxml/testhelper"
 )
 
 func TestSimpleDoc(t *testing.T) {

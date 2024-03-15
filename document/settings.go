@@ -8,8 +8,8 @@
 package document
 
 import (
-	"github.com/carmel/gooxml"
-	"github.com/carmel/gooxml/schema/soo/wml"
+	"github.com/codrocker/gooxml"
+	"github.com/codrocker/gooxml/schema/soo/wml"
 )
 
 // Settings controls the document settings.

@@ -13,8 +13,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/carmel/gooxml"
-	"github.com/carmel/gooxml/schema/soo/dml"
+	"github.com/codrocker/gooxml"
+	"github.com/codrocker/gooxml/schema/soo/dml"
 )
 
 type WdCT_WordprocessingGroup struct {
