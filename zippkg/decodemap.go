@@ -99,7 +99,7 @@ func (d *DecodeMap) Decode(files []*zip.File) error {
 				var targetStr string
 				// 针对菁优网的图片目录进行的特殊处理
 				if r.TypeAttr == "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" {
-					targetStr = r.TypeAttr[1:]
+					targetStr = r.TargetAttr[1:]
 				} else {
 					targetStr = bp + r.TargetAttr
 				}
