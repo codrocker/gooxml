@@ -96,7 +96,14 @@ func (d *DecodeMap) Decode(files []*zip.File) error {
 			relRaw := relSource.Ifc.(*relationships.Relationships)
 			for _, r := range relRaw.Relationship {
 				bp, _ := d.basePaths[relRaw]
-				d.decodeFunc(d, bp+r.TargetAttr, r.TypeAttr, files, r, relSource)
+				var targetStr string
+				// 针对菁优网的图片目录进行的特殊处理
+				if r.TypeAttr == "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" {
+					targetStr = r.TypeAttr[1:]
+				} else {
+					targetStr = bp + r.TargetAttr
+				}
+				d.decodeFunc(d, targetStr, r.TypeAttr, files, r, relSource)
 			}
 		}
 
